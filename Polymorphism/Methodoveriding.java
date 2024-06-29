@@ -1,20 +1,22 @@
 package Polymorphism;
 
-class Bike{
-    void run(){
+class Bike {
+    void run() {
         System.out.println("Hero");
     }
 }
-class RE extends Bike{
-    void run(){
+
+class RE extends Bike {
+    void run() {
         System.out.println("royal Enfiled");
     }
 }
-//run time polymorphism 
+
+// run time polymorphism
 public class Methodoveriding {
-public static void main(String[] args) {
-    RE re=new RE();
-    re.run();
-}
-    
+    public static void main(String[] args) {
+        RE re = new RE();
+        re.run();
+    }
+
 }
