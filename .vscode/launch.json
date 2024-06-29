@@ -1,0 +1,567 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Triperpect",
+            "request": "launch",
+            "mainClass": "Number.Triperpect",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "audi",
+            "request": "launch",
+            "mainClass": "Car.audi",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "rx",
+            "request": "launch",
+            "mainClass": "Bike.rx",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Multilevelmultiple",
+            "request": "launch",
+            "mainClass": "Inheritance.Multilevelmultiple",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Multipleint",
+            "request": "launch",
+            "mainClass": "Inheritance.Multipleint",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Singlemulti",
+            "request": "launch",
+            "mainClass": "Inheritance.Singlemulti",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "ABC",
+            "request": "launch",
+            "mainClass": "Polymorphism.ABC",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Honda3",
+            "request": "launch",
+            "mainClass": "Polymorphism.Honda3",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Datamember",
+            "request": "launch",
+            "mainClass": "Polymorphism.Datamember",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "CompileTimepoly",
+            "request": "launch",
+            "mainClass": "Polymorphism.CompileTimepoly",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "BankScene",
+            "request": "launch",
+            "mainClass": "Polymorphism.BankScene",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Overloding",
+            "request": "launch",
+            "mainClass": "Polymorphism.Overloding",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Methodoveriding",
+            "request": "launch",
+            "mainClass": "Polymorphism.Methodoveriding",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Siglemulti",
+            "request": "launch",
+            "mainClass": "Inheritance.Siglemulti",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "And",
+            "request": "launch",
+            "mainClass": "And",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arrayfunc",
+            "request": "launch",
+            "mainClass": "Array.Arrayfunc",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arraymul",
+            "request": "launch",
+            "mainClass": "Array.Arraymul",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "Array.BinarySearch",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Bubblesort",
+            "request": "launch",
+            "mainClass": "Array.Bubblesort",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Array.LinearSearch",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Maxarray",
+            "request": "launch",
+            "mainClass": "Array.Maxarray",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Reversearray",
+            "request": "launch",
+            "mainClass": "Array.Reversearray",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Rightrotate",
+            "request": "launch",
+            "mainClass": "Array.Rightrotate",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "leftrotate",
+            "request": "launch",
+            "mainClass": "Array.leftrotate",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "majorityelement",
+            "request": "launch",
+            "mainClass": "Array.majorityelement",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Compare",
+            "request": "launch",
+            "mainClass": "Compare",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Equal",
+            "request": "launch",
+            "mainClass": "Equal",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "EvenOdd",
+            "request": "launch",
+            "mainClass": "EvenOdd",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Final",
+            "request": "launch",
+            "mainClass": "Final",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Find",
+            "request": "launch",
+            "mainClass": "Find",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Abstract",
+            "request": "launch",
+            "mainClass": "Inheritance.Abstract",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Abstracteg",
+            "request": "launch",
+            "mainClass": "Inheritance.Abstracteg",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Abstracteg2",
+            "request": "launch",
+            "mainClass": "Inheritance.Abstracteg2",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Hybrid",
+            "request": "launch",
+            "mainClass": "Inheritance.Hybrid",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Single",
+            "request": "launch",
+            "mainClass": "Inheritance.Single",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "multilevel",
+            "request": "launch",
+            "mainClass": "Inheritance.multilevel",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Adamnum",
+            "request": "launch",
+            "mainClass": "Method.Adamnum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "Method.Armstrong",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Strongnum",
+            "request": "launch",
+            "mainClass": "Method.Strongnum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Multiplication",
+            "request": "launch",
+            "mainClass": "Multiplication",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Nestedif",
+            "request": "launch",
+            "mainClass": "Nestedif",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Armstrongnum",
+            "request": "launch",
+            "mainClass": "Number.Armstrongnum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Factor",
+            "request": "launch",
+            "mainClass": "Number.Factor",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "MulFactor",
+            "request": "launch",
+            "mainClass": "Number.MulFactor",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "PairFactor",
+            "request": "launch",
+            "mainClass": "Number.PairFactor",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Number.Prime",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Primefactors",
+            "request": "launch",
+            "mainClass": "Number.Primefactors",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Sumoffactors",
+            "request": "launch",
+            "mainClass": "Number.Sumoffactors",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "oddevensegregation",
+            "request": "launch",
+            "mainClass": "Number.oddevensegregation",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Object",
+            "request": "launch",
+            "mainClass": "Object",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Odd",
+            "request": "launch",
+            "mainClass": "Odd",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Or",
+            "request": "launch",
+            "mainClass": "Or",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal",
+            "request": "launch",
+            "mainClass": "Patterns.Diagonal",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "Patterns.Diamond",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "HollowSquare",
+            "request": "launch",
+            "mainClass": "Patterns.HollowSquare",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Number",
+            "request": "launch",
+            "mainClass": "Patterns.Number",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Pyramid",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "Patterns.butterfly",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "incrementtriangle",
+            "request": "launch",
+            "mainClass": "Patterns.incrementtriangle",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "square",
+            "request": "launch",
+            "mainClass": "Patterns.square",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Postive",
+            "request": "launch",
+            "mainClass": "Postive",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Quadrant",
+            "request": "launch",
+            "mainClass": "Quadrant",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Smallestnum",
+            "request": "launch",
+            "mainClass": "Smallestnum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Sum1",
+            "request": "launch",
+            "mainClass": "Sum1",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Super",
+            "request": "launch",
+            "mainClass": "Super",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Unique",
+            "request": "launch",
+            "mainClass": "Unique",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "NumtoDigit",
+            "request": "launch",
+            "mainClass": "While.NumtoDigit",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "While.Reverse",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "While.factorial",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "numbercrunch",
+            "request": "launch",
+            "mainClass": "While.numbercrunch",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "add2d",
+            "request": "launch",
+            "mainClass": "add2d",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "candies",
+            "request": "launch",
+            "mainClass": "candies",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "method",
+            "request": "launch",
+            "mainClass": "method",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "search",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "sum2",
+            "request": "launch",
+            "mainClass": "sum2",
+            "projectName": "java_95deb071"
+        }
+    ]
+}
