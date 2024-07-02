@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Printarray",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Printarray",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Monotonic",
             "request": "launch",
             "mainClass": "Array.Monotonic",
