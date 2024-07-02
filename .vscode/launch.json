@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Monotonic",
+            "request": "launch",
+            "mainClass": "Array.Monotonic",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Triperpect",
             "request": "launch",
             "mainClass": "Number.Triperpect",
