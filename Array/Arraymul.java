@@ -23,6 +23,6 @@ public class Arraymul {
             sum-=arr[i];
             System.out.print(sum+" ");
         }
-
+        s.close();
     }
 }

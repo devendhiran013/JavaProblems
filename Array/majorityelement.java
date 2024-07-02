@@ -31,6 +31,6 @@ class majorityelement{
     {
       System.out.println("No majority element found in the array");
     }
-   
+    s.close();
   }
 }

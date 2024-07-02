@@ -31,5 +31,7 @@ public class Bubblesort {
             System.out.print(itr+" ");
             
         }
+        s.close();
     }
+  
 }

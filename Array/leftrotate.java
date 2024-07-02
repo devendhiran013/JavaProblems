@@ -21,5 +21,6 @@ public class leftrotate {
         for(int i=0;i<a;i++){
             System.out.print(arr[i]+" ");
         }
+        s.close();
        }
 }

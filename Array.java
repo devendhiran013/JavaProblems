@@ -15,7 +15,7 @@ public class Array {
         for(int i=a-1;i>0 ;i--) {
              System.out.println("entered numbers are"+x[i]);
         }
-           
+        s.close(); 
         }
 
         

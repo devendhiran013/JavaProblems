@@ -27,6 +27,7 @@ public class search {
         else {
             System.out.println("No");
         }
+        s.close();
     }
 
 }

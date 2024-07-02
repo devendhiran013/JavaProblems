@@ -26,6 +26,6 @@ public class Rightrotate {
             System.out.print(itr+" ");
 
         }
-        
+        s.close();
     }
 }

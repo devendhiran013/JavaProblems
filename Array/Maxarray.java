@@ -18,5 +18,6 @@ public class Maxarray {
             }
         }
         System.out.println(max);
+        s.close();
     }
 }

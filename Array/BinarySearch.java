@@ -35,6 +35,7 @@ public class BinarySearch {
       else{
         System.out.println("not found");
       }
+      s.close();
     }
     
 }

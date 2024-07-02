@@ -29,6 +29,7 @@ public class add2d {
         
         }
         System.out.println(sc);
+        s.close();
     }
 }
 

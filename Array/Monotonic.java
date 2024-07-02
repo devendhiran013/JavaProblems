@@ -28,5 +28,6 @@ public class Monotonic {
         else{
             System.out.println("Non Monotonic");
         }
+        s.close();
     }
 }

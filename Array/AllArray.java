@@ -50,7 +50,7 @@ class Arrayfunc {
             System.out.print(num + " ");
         }
         System.out.println();
-
+        scanner.close();
 }
 
 }
