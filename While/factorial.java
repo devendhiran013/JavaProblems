@@ -22,6 +22,6 @@ public class factorial {
                 System.out.print("Yes");
             }
             else {System.out.print("No");}
-             
+             s.close();
         } 
 }

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "identicalmatrix",
+            "request": "launch",
+            "mainClass": "TwodimenArray.identicalmatrix",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Addmatrix",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Addmatrix",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Min",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Min",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Printarray",
             "request": "launch",
             "mainClass": "TwodimenArray.Printarray",
