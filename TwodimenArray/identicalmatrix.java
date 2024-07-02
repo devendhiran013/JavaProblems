@@ -36,5 +36,6 @@ public class identicalmatrix {
         else{
             System.out.println("non identical");
         }
+        s.close();
     }
 }
