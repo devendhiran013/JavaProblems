@@ -2,9 +2,9 @@ package TwodimenArray;
 
 import java.util.Scanner;
 
-public class identicalmatrix {
+public class Upperdiagonal {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner s=new Scanner(System.in);
         int a = s.nextInt();
         int b = s.nextInt();
 
@@ -15,22 +15,15 @@ public class identicalmatrix {
                 arr[i][j] = s.nextInt();
             }
         }
-        // int k = 0;
-        // for (int i = 0; i < a-1; i++) {
-        //     for (int j = 0; j < b-1; j++) {
-        //         if (arr[i][j] == arr[i + 1][j + 1]) {
-        //             k = 1;
-        //         }
-        //     }
-        // }
         boolean k=true;
-        for(int i=0;i<a;i++){
-            if(arr[0][0]!=arr[i][i]){
+        for(int i=a-1;i>0;i--){
+            if(arr[0][a-1]!=arr[i-1][i-1]){
              k=false;
              break;
             }
+            
         }
-        if (k ) {
+        if (k ==true) {
             System.out.println("identical");
         }
         else{

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrixmul",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Matrixmul",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Maxdiagonal",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Maxdiagonal",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Upperdiagonal",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Upperdiagonal",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "identicalmatrix",
             "request": "launch",
             "mainClass": "TwodimenArray.identicalmatrix",
