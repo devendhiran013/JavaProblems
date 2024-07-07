@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZeroCount",
+            "request": "launch",
+            "mainClass": "TwodimenArray.ZeroCount",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Elementfound",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Elementfound",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Hollowmatrix",
+            "request": "launch",
+            "mainClass": "TwodimenArray.Hollowmatrix",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "ZeroCount",
+            "request": "launch",
+            "mainClass": "Array.ZeroCount",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Matrixmul",
             "request": "launch",
             "mainClass": "TwodimenArray.Matrixmul",
