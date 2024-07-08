@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lamda",
+            "request": "launch",
+            "mainClass": "lamda",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "ZeroCount",
             "request": "launch",
             "mainClass": "TwodimenArray.ZeroCount",
