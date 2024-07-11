@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortedArraycount",
+            "request": "launch",
+            "mainClass": "TwodimenArray.SortedArraycount",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "CollectionFramwork.Arraylist",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "Array.RemoveDuplicate",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "lamda",
             "request": "launch",
             "mainClass": "lamda",

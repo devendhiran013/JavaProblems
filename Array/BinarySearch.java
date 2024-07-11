@@ -27,6 +27,7 @@ public class BinarySearch {
             }
             else{
                 last=mid-1;
+                
             }
         }}
       if(first<last){

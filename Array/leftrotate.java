@@ -17,10 +17,10 @@ public class leftrotate {
              arr[i]=arr[i+1];
              
         }
-        arr[a-1]=temp;}
+        arr[a-1]=temp;}  
         for(int i=0;i<a;i++){
             System.out.print(arr[i]+" ");
         }
         s.close();
        }
-}
+}        
