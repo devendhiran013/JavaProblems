@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Awt",
+            "request": "launch",
+            "mainClass": "Awt",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "SortedArraycount",
             "request": "launch",
             "mainClass": "TwodimenArray.SortedArraycount",
