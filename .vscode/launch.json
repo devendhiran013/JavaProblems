@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Searchinglist",
+            "request": "launch",
+            "mainClass": "DataStructure.Searchinglist",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Searchll",
+            "request": "launch",
+            "mainClass": "DataStructure.Searchll",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "linkedlist",
+            "request": "launch",
+            "mainClass": "DataStructure.linkedlist",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Awt",
             "request": "launch",
             "mainClass": "Awt",
