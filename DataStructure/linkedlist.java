@@ -1,6 +1,6 @@
 package DataStructure;
 
-import java.util.LinkedList;
+
 import java.util.Scanner;
 
 public class linkedlist {
@@ -36,7 +36,7 @@ public class linkedlist {
 
         if (head == null) {
             head = newnode;
-            return;
+
         } else {
             Node temp = head;
 
@@ -47,7 +47,7 @@ public class linkedlist {
         }
     }
 
-    public void insertmid(int pos,int val) {
+    public void insertmid(int pos, int val) {
         Node newnode = new Node(val);
         Node temp = head;
         for (int i = 1; i < pos; i++) {
@@ -57,10 +57,30 @@ public class linkedlist {
         temp.next = newnode;
     }
 
+    public void deletefirst() {
+        head = head.next;
+    }
+
+    public void deletelast() {
+        Node temp = head;
+        if (temp == null) {
+            System.out.println("Empty list");
+        } else {
+            while (temp.next.next != null) {
+                temp = temp.next;
+            }
+            temp.next = null;
+        }
+    }
+
     public void display() {
         Node temp = head;
         while (temp != null) {
-            System.out.print(temp.data + " ");
+            if (temp.next == null) {
+                System.out.print(temp.data + " ");
+            } else {
+                System.out.print(temp.data + "->");
+            }
             temp = temp.next;
         }
     }
@@ -76,18 +96,27 @@ public class linkedlist {
             if (k == 1) {
                 ll.insertFrist(n);
                 n = s.nextInt();
+
             } else if (k == 2) {
                 ll.insertlast(n);
                 n = s.nextInt();
             }
 
         }
-        System.out.print("before");
+        System.out.println("before");
         ll.display();
         int pos = s.nextInt();
         int midele = s.nextInt();
-        ll.insertmid(pos,midele);
-        ll.display();
+        ll.insertmid(pos, midele);
 
+        System.out.println("after insert at mid");
+        ll.display();
+        ll.deletefirst();
+        System.out.println("after delete at first");
+        ll.display();
+        ll.deletelast();
+        System.out.println("after delete at last");
+        ll.display();
+        s.close();
     }
 }

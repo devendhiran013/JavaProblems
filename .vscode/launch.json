@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stackusingarr",
+            "request": "launch",
+            "mainClass": "DataStructure.Stackusingarr",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Cll",
+            "request": "launch",
+            "mainClass": "DataStructure.Cll",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "doublelinkedlist",
+            "request": "launch",
+            "mainClass": "DataStructure.doublelinkedlist",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Searchinglist",
             "request": "launch",
             "mainClass": "DataStructure.Searchinglist",
