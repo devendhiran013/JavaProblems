@@ -24,8 +24,17 @@ class stacks {
         if (top == -1) {
             System.out.println("stack is empty");
         } else {
-            System.out.println(arr[top--]);
-            // top--;
+            // System.out.println(arr[top--]);
+            top--;
+        }
+    }
+
+    public void peek() {
+        if (top == -1) {
+            System.out.println("stack is empty");
+        } else {
+
+            System.out.println(arr[top]);
         }
     }
 
@@ -52,6 +61,10 @@ class Stackusingarr {
         System.out.println();
         st.pop();
         st.display();
+        System.out.println();
+        st.peek();
+
         s.close();
+
     }
 }

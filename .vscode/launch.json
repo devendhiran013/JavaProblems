@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stackusinglinked",
+            "request": "launch",
+            "mainClass": "DataStructure.Stackusinglinked",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Sortedarray",
+            "request": "launch",
+            "mainClass": "Array.Sortedarray",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Stackusingarr",
             "request": "launch",
             "mainClass": "DataStructure.Stackusingarr",
