@@ -70,5 +70,6 @@ class Searchinglist {
         else{
             System.out.println("not found");
         }
+        s.close();
     }
 }
