@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Queueusingll",
+            "request": "launch",
+            "mainClass": "DataStructure.Queueusingll",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Queueusingarray",
+            "request": "launch",
+            "mainClass": "DataStructure.Queueusingarray",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Stackusinglinked",
             "request": "launch",
             "mainClass": "DataStructure.Stackusinglinked",

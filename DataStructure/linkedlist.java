@@ -1,6 +1,5 @@
 package DataStructure;
 
-
 import java.util.Scanner;
 
 public class linkedlist {
@@ -71,6 +70,10 @@ public class linkedlist {
             }
             temp.next = null;
         }
+    }
+
+    public void deletemid() {
+
     }
 
     public void display() {
