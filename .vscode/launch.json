@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Binarytreee",
+            "request": "launch",
+            "mainClass": "DataStructure.Tree.Binarytreee",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "binarytree",
+            "request": "launch",
+            "mainClass": "DataStructure.Tree.binarytree",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "balancingparan",
+            "request": "launch",
+            "mainClass": "DataStructure.Stack.ExpressionEvaluation.balancingparan",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "DataStructure.Stack.ExpressionEvaluation.Solution",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "infixtopostfix",
+            "request": "launch",
+            "mainClass": "DataStructure.Stack.ExpressionEvaluation.infixtopostfix",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "infixtopostfix",
+            "request": "launch",
+            "mainClass": "infixtopostfix",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Queueusingll",
             "request": "launch",
             "mainClass": "DataStructure.Queueusingll",
