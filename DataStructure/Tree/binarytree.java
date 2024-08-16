@@ -56,6 +56,13 @@ public class binarytree {
         }
     }
 
+    public int height(Node root) {
+        if (root == null) {
+            return -1;
+        }
+        return Math.max(height(root.left),height(root.right));
+    }
+
     public static void main(String[] args) {
         binarytree bt = new binarytree(10);
         bt.insertleft(bt.root, 5);
@@ -71,8 +78,8 @@ public class binarytree {
         System.out.println();
         System.out.println("postorder");
         bt.postoder(bt.root);
-        
-        
+        System.out.println();
+        System.out.println("Height ="+bt.height(bt.root));
 
     }
 }

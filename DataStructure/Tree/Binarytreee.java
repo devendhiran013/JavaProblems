@@ -1,4 +1,5 @@
 package DataStructure.Tree;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -18,19 +19,16 @@ public class Binarytreee {
         }
     }
 
-
     Binarytreee() {
         root = null;
     }
 
-    
     public void insert(int val) {
         root = insertRecursive(root, val);
     }
 
-   
     public Node insertRecursive(Node root, int val) {
-       
+
         if (root == null) {
             root = new Node(val);
             return root;
@@ -64,7 +62,7 @@ public class Binarytreee {
             }
         }
     }
-    
+
     // Preorder traversal
     public void preorder(Node root) {
         if (root != null) {
@@ -92,6 +90,23 @@ public class Binarytreee {
         }
     }
 
+    public int height(Node root) {
+        if (root == null) {
+            return -1;
+        }
+        return Math.max(height(root.left), height(root.right)) + 1;
+    }
+
+    public Node search(Node root, int key) {
+        if (root == null || root.data == key) {
+            return root;
+        }
+        if (root.data < key) {
+            return search(root.right, key);
+        }
+        return search(root.left, key);
+    }
+
     public static void main(String[] args) {
         Binarytreee bt = new Binarytreee();
         Scanner scanner = new Scanner(System.in);
@@ -113,7 +128,7 @@ public class Binarytreee {
             }
         }
 
-        scanner.close();
+        
 
         // Traversal outputs
         System.out.println("Level order");
@@ -127,5 +142,16 @@ public class Binarytreee {
         System.out.println();
         System.out.println("Postorder:");
         bt.postorder(bt.root);
+        System.out.println();
+        System.out.println("Height =" + bt.height(bt.root));
+        System.out.println("enter element to search");
+        int search = scanner.nextInt();
+        Node result = bt.search(bt.root, search);
+        if (result != null) {
+            System.out.println("element found");
+        } else {
+            System.out.println("element not found");
+        }
+        scanner.close();
     }
 }
