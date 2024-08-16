@@ -34,14 +34,12 @@ public class Binarytreee {
             return root;
         }
 
-        // Otherwise, recur down the tree
         if (val < root.data) {
             root.left = insertRecursive(root.left, val);
         } else if (val > root.data) {
             root.right = insertRecursive(root.right, val);
         }
 
-        // return the (unchanged) node pointer
         return root;
     }
 
@@ -107,28 +105,27 @@ public class Binarytreee {
         return search(root.left, key);
     }
 
+    public int leafCount(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        if (root.left == null && root.right == null) {
+            return 1;
+        }
+        return leafCount(root.left) + leafCount(root.right);
+    }
+
     public static void main(String[] args) {
         Binarytreee bt = new Binarytreee();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter numbers to insert into the binary tree (type 'exit' to stop):");
+        int n = scanner.nextInt();
+        while (n > 0) {
 
-        while (true) {
-            String input = scanner.nextLine();
-
-            if (input.equalsIgnoreCase("exit")) {
-                break;
-            }
-
-            try {
-                int value = Integer.parseInt(input);
-                bt.insert(value);
-            } catch (NumberFormatException e) {
-                System.out.println("Please enter a valid integer or 'exit' to stop.");
-            }
+            bt.insert(n);
+            n = scanner.nextInt();
         }
-
-        
 
         // Traversal outputs
         System.out.println("Level order");
@@ -143,15 +140,18 @@ public class Binarytreee {
         System.out.println("Postorder:");
         bt.postorder(bt.root);
         System.out.println();
-        System.out.println("Height =" + bt.height(bt.root));
-        System.out.println("enter element to search");
+        System.out.println("Height = " + bt.height(bt.root));
+
+        System.out.println("Leaf Count = " + bt.leafCount(bt.root));
+        System.out.println("Enter element to search:");
         int search = scanner.nextInt();
         Node result = bt.search(bt.root, search);
         if (result != null) {
-            System.out.println("element found");
+            System.out.println("Element found");
         } else {
-            System.out.println("element not found");
+            System.out.println("Element not found");
         }
+
         scanner.close();
     }
 }
