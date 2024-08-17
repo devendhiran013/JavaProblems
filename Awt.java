@@ -28,5 +28,6 @@ class Awt{
     }
     public static void main(String[] args) {
         Awt obj=new Awt();
+    
     }
 }

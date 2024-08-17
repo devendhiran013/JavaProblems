@@ -18,5 +18,6 @@ public class candies {
             System.out.println("Candies out of stock");
         }
     }
+    s.close();
 }
 }
