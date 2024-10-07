@@ -12,9 +12,9 @@ public class Reversearray {
             arr[i]=s.nextInt();
         }
         //reverse travsal
-        for( int i=n-1;i>=0;i--){
-            System.out.print(arr[i]+" ");
-        }
+        // for( int i=n-1;i>=0;i--){
+        //     System.out.print(arr[i]+" ");
+        //}
         for(first=0,last=n-1;first<last;first++,last--){
             temp=arr[first];
             arr[first]=arr[last];
@@ -27,4 +27,4 @@ public class Reversearray {
         for(int element:arr) System.out.println(element);
         s.close();
     }
-}
+} 

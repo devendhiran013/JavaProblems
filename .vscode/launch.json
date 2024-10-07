@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SPS",
+            "request": "launch",
+            "mainClass": "SPS",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Divideplayers",
+            "request": "launch",
+            "mainClass": "Array.Divideplayers",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Balancefruit",
+            "request": "launch",
+            "mainClass": "Number.Balancefruit",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "divisibleoffour",
+            "request": "launch",
+            "mainClass": "Number.divisibleoffour",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "fibo",
+            "request": "launch",
+            "mainClass": "Number.fibo",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Knife",
+            "request": "launch",
+            "mainClass": "Array.Knife",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "adjacencymatrix",
             "request": "launch",
             "mainClass": "DataStructure.Graph.adjacencymatrix",
