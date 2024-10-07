@@ -1,18 +1,25 @@
 package While;
 import java.util.Scanner;
 
-/**
- * NumtoDigit
- */
-public class NumtoDigit {
-
+ class NumtoDigit {
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        long num=s.nextLong();
-        long mul=0;
-        while(num!=-1){
-            mul=(10*mul)+num;
-            num=s.nextLong();
+        Scanner s = new Scanner(System.in);
+        int num = s.nextInt();
+        int mul = 0, pv = 1, temp = num;
+
+        // Process each digit
+        while(temp != 0) {
+            int d = temp % 10; // Extract the last digit
+
+            // Replace 0 with 5
+            if(d == 0) {
+                d = 5;
+            }
+
+            // Construct the modified number
+            mul = d * pv + mul;
+            pv *= 10;
+            temp /= 10;
         }
         System.out.println(mul);
     }
