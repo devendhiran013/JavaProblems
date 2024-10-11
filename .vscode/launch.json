@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stringcount",
+            "request": "launch",
+            "mainClass": "Stringcount",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Nobitanum",
+            "request": "launch",
+            "mainClass": "Number.Nobitanum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "SPS",
             "request": "launch",
             "mainClass": "SPS",
