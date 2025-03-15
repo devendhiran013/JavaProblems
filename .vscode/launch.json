@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxsum",
+            "request": "launch",
+            "mainClass": "Array.maxsum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "Number.pattern",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "dfs",
+            "request": "launch",
+            "mainClass": "DataStructure.Graph.dfs",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "soft",
+            "request": "launch",
+            "mainClass": "Number.soft",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "singnumber",
+            "request": "launch",
+            "mainClass": "Array.singnumber",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Largestnum",
+            "request": "launch",
+            "mainClass": "Array.Largestnum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Midelement",
+            "request": "launch",
+            "mainClass": "Array.Midelement",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "negativesum",
+            "request": "launch",
+            "mainClass": "While.negativesum",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Stringcount",
             "request": "launch",
             "mainClass": "Stringcount",

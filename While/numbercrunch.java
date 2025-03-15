@@ -15,6 +15,7 @@ public class numbercrunch {
             num%=pv;
             pv/=10;
         }
+
         
     }
 }
