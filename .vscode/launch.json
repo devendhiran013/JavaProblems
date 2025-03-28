@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Console",
+            "request": "launch",
+            "mainClass": "Console",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arrayoddeven",
+            "request": "launch",
+            "mainClass": "Arrayoddeven",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "array90rotate",
             "request": "launch",
             "mainClass": "Zoho.array90rotate",

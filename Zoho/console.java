@@ -1,7 +1,6 @@
-package Zoho;
 import java.util.*;
 
-class console{
+class Console {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a sentence:");
@@ -10,27 +9,43 @@ class console{
 
         String words[] = sentence.split(" ");
         int n = words.length;
-        
+
+        List<String> reversedWords = new ArrayList<>();
+        List<String> originalWords = new ArrayList<>();
+
         for (int i = 0; i < n; i++) {
-            if (n % 2 == 0) {  // Even number of words, reverse even positions
+            if (n % 2 == 0) { // Even number of words → Reverse even positions
                 if ((i + 1) % 2 == 0) {
-                    words[i] = reverseString(words[i]);
+                    reversedWords.add(reverseString(words[i]));
+                } else {
+                    originalWords.add(words[i]);
                 }
-            } else {  // Odd number of words, reverse odd positions
+            } else { // Odd number of words → Reverse odd positions
                 if ((i + 1) % 2 == 1) {
-                    words[i] = reverseString(words[i]);
+                    reversedWords.add(reverseString(words[i]));
+                } else {
+                    originalWords.add(words[i]);
                 }
             }
         }
-        
-        System.out.println(String.join(" ", words));
+
+        // Joining reversed words first, then original words
+        for (int i=reversedWords.size()-1;i>=0;i--) {
+            System.out.print(reversedWords.get(i) + " ");
+        }
+        for (int i = 0; i < originalWords.size(); i++) {
+            System.out.print(originalWords.get(i));
+            if (i < originalWords.size() - 1) {
+                System.out.print(" ");
+            }
+        }
     }
 
     static String reverseString(String str) {
-        String temp=" ";
-        for(int i=str.length();i>=0;i--){
-            temp+=str.charAt(i);
+        String temp = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            temp += str.charAt(i);
         }
         return temp;
-}
+    }
 }

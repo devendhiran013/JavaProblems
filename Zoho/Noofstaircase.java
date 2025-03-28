@@ -1,4 +1,4 @@
-package Zoho;
+
 
 public class Noofstaircase {
     public static void main(String[] args) {

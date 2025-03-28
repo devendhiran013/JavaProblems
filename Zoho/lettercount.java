@@ -1,8 +1,7 @@
-package Zoho;
+
 
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
 
 public class lettercount {
     public static void main(String[] args) {
