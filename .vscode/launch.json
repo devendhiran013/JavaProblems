@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "array90rotate",
+            "request": "launch",
+            "mainClass": "Zoho.array90rotate",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Noofstaircase",
+            "request": "launch",
+            "mainClass": "Zoho.Noofstaircase",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "lettercount",
+            "request": "launch",
+            "mainClass": "Zoho.lettercount",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "letterprint",
+            "request": "launch",
+            "mainClass": "Zoho.letterprint",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arrayoddeven",
+            "request": "launch",
+            "mainClass": "Zoho.Arrayoddeven",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "SnakePattern",
+            "request": "launch",
+            "mainClass": "Zoho.SnakePattern",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Xpattern",
+            "request": "launch",
+            "mainClass": "Zoho.Xpattern",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "SnakePattern",
+            "request": "launch",
+            "mainClass": "Array.SnakePattern",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Arrayoddeven",
+            "request": "launch",
+            "mainClass": "Array.Arrayoddeven",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "letterprint",
+            "request": "launch",
+            "mainClass": "While.letterprint",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "console",
+            "request": "launch",
+            "mainClass": "console",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "datrixPattern",
+            "request": "launch",
+            "mainClass": "datrixPattern",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "oddPlaceAsecEvenPlaceDsec",
+            "request": "launch",
+            "mainClass": "oddPlaceAsecEvenPlaceDsec",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
+            "name": "Leader",
+            "request": "launch",
+            "mainClass": "Leader",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "maxsum",
             "request": "launch",
             "mainClass": "Array.maxsum",
