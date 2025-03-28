@@ -16,11 +16,11 @@ class Console {
         for (int i = 0; i < n; i++) {
             if (n % 2 == 0) { // Even number of words → Reverse even positions
                 if ((i + 1) % 2 == 0) {
-                    reversedWords.add(reverseString(words[i]));
+                    System.out.print(reverseString(words[i]));
                 } else {
                     originalWords.add(words[i]);
                 }
-            } else { // Odd number of words → Reverse odd positions
+            } else { 
                 if ((i + 1) % 2 == 1) {
                     reversedWords.add(reverseString(words[i]));
                 } else {

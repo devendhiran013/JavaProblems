@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stringreverse",
+            "request": "launch",
+            "mainClass": "Stringreverse",
+            "projectName": "java_95deb071"
+        },
+        {
+            "type": "java",
             "name": "Console",
             "request": "launch",
             "mainClass": "Console",
